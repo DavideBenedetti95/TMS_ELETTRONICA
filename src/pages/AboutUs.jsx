@@ -19,7 +19,7 @@ const AboutUs = () => {
                 </p>
             </div>
 
-            <div className='p-4 h-auto'>
+            <div className='p-4 md:mt-16'>
                 <Gallery/>
             </div>
             
