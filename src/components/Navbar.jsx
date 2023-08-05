@@ -30,10 +30,16 @@ const Navbar = () => {
               <Link to="/" className="text-black">Homepage</Link>
             </li>
             <li>
-              <Link to="/about-us" className="text-black">Chi Siamo</Link>
+              <Link to="/chi-siamo" className="text-black">Chi Siamo</Link>
             </li>
             <li>
-              <Link to="/" className="text-black">Servizi</Link>
+              <Link to="/servizi" className="text-black">Servizi</Link>
+            </li>
+            <li>
+              <Link to="/mission" className="text-black">Mission</Link>
+            </li>
+            <li>
+              <Link to="/contatti" className="text-black">Contatti</Link>
             </li>
           </ul>
         </div>
