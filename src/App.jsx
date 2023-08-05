@@ -18,8 +18,8 @@ const App = () => {
 
   return (
     <main>
-      {/* {loading ? (<Loader/>):
-      ( */}
+      {loading ? (<Loader/>):
+      (
       <div>
         <Navbar/>
           <div>
@@ -29,7 +29,7 @@ const App = () => {
             </Routes>
           </div>
       </div>
-      {/* )}  */}
+      )}
     </main>
   )
 }
