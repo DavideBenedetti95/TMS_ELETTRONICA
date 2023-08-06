@@ -45,7 +45,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="navbar-center">
-        <Link to="/" className="btn btn-ghost text-xl text-white navbar-brand">TMS ELETTRONICA</Link>
+        <Link to="/" className="btn btn-ghost text-xl text-white navbar-brand pt-[2px]">TMS ELETTRONICA</Link>
       </div>
       <div className="navbar-end">
       </div>
