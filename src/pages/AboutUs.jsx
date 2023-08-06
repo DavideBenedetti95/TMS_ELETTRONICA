@@ -16,7 +16,7 @@ const AboutUs = ({title, description}) => {
                 </p>
             </div>
 
-            <div className='p-4 md:mt-16'>
+            <div className='p-6 md:p-16 md:mt-16'>
                 <Gallery/>
             </div>
             
