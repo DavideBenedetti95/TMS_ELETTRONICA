@@ -29,8 +29,8 @@ const App = () => {
               <Route path='/' element={<Hero/>}/>
               <Route path='/chi-siamo' element={<AboutUs title={data.at(0).title} description={data.at(0).description}/>}/>
               <Route path='/servizi' element={<Services title={data.at(1).title} description={data.at(1).description}/>}/>
-              <Route path='/mission' element={<AboutUs/>}/>
-              <Route path='/contatti' element={<AboutUs/>}/>
+              <Route path='/mission'/>
+              <Route path='/contatti'/>
             </Routes>
           </div>
       </div>
