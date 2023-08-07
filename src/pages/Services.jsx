@@ -8,7 +8,7 @@ const Services = ({title, description}) => {
             <div className='min-h-screen flex justify-center items-center'>
                 <div className='grid grid-cols-1 md:grid-cols-2'>
                     <div className='px-4 md:p-8 md:px-0 mt-12 md:mt-0'>
-                        <img src="https://images.pexels.com/photos/132700/pexels-photo-132700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+                        <img className='md:p-8' src="https://images.pexels.com/photos/132700/pexels-photo-132700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                     </div>
 
                     <div className='flex flex-col justify-center items-center p-4 md:p-8'>
