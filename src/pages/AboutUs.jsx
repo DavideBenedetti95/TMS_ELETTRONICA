@@ -8,7 +8,7 @@ const AboutUs = ({title, description}) => {
       <div className='min-h-screen w-full flex flex-col justify-center items-center'>
         <div className='grid grid-cols-1 md:grid-cols-2'>
             <div className='flex flex-col justify-center items-center p-8 min-h-auto'>
-                <h3 className='text-3xl border-b-slate-950 border-b-2 pb-8 w-72 text-center mb-8 mt-24 md:mt-0'>
+                <h3 className='text-3xl border-b-white border-b-2 pb-8 w-72 text-center mb-8 mt-24 md:mt-0'>
                   {title}
                 </h3>
                 <p>
