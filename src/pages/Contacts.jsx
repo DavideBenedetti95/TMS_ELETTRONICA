@@ -1,6 +1,9 @@
+import React from "react";
+import {Fade } from 'react-awesome-reveal'
+
 const Contacts = () => {
   return (
-    <div>
+    <Fade>
 
       <h2 className="text-4xl md:text-7xl text-center mt-4 md:mt-8">Contatti</h2>
 
@@ -28,7 +31,7 @@ const Contacts = () => {
             <iframe className="min-w-full h-[400px] md:w-[900px] md:h-[470px] border-0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11913.354365639578!2d12.622825!3d41.713212!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1325859d3936d33f%3A0xfd10ce5b5953fce6!2sT.M.S.%20Elettronica!5e0!3m2!1sen!2sit!4v1691670659148!5m2!1sen!2sit" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
-    </div>
+    </Fade>
   );
 };
 
