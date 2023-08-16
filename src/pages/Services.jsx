@@ -4,7 +4,7 @@ import { Slide, Fade } from 'react-awesome-reveal'
 const Services = ({title, description}) => {
   return (
     <div>
-        <Slide direction='right'>
+        <Fade direction='right'>
             <div className='min-h-screen flex justify-center items-center'>
                 <div className='grid grid-cols-1 md:grid-cols-2'>
                     <div className='px-4 md:p-8 md:px-0 mt-24 md:mt-0'>
@@ -22,7 +22,7 @@ const Services = ({title, description}) => {
                     </div>
                 </div>
             </div>
-        </Slide>
+        </Fade>
 
         <Fade>
             <div className="flex flex-col w-full md:w-[85%] mx-auto px-2 md:px-0 mt-6 md:mt-0">
